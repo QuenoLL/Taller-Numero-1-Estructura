@@ -1,5 +1,9 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include "SystemImpl.hpp"
 
-
-class SystemImpl{
+SystemImpl::SystemImpl(){}
+void SystemImpl::crearPersonas(vector<string> partes){
     
 }

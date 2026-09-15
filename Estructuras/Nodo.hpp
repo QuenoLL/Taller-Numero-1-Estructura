@@ -1,16 +1,7 @@
 #pragma once
-#include "ObjetoNodo.hpp"
 
 class Nodo{
-
-    private:
-        ObjetoNodo* contenido;
-        Nodo* next;
-
     public:
-           
-
-
-
-
+        virtual void mostrarInfo() = 0;
+        virtual ~Nodo();
 };

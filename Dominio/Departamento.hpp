@@ -1,9 +1,8 @@
 #pragma once
-#include "ObjetoNodo.hpp"
 #include <string>
 using namespace std;
 
-class Departamento : public virtual ObjetoNodo{
+class Departamento{
 
     private:
         string name;
