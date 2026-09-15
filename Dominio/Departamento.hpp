@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-class Departamento : public ObjetoNodo{
+class Departamento : public virtual ObjetoNodo{
 
     private:
         string name;

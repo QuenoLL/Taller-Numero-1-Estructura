@@ -7,8 +7,8 @@ class Nodo{
         ObjetoNodo* contenido;
         Nodo* next;
 
-    public:  
-        
+    public:
+           
 
 
 

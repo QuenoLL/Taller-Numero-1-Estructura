@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class Persona : public ObjetoNodo{
+class Persona : public virtual ObjetoNodo{
 
     private:
         int posAtencion;
@@ -17,6 +17,6 @@ class Persona : public ObjetoNodo{
         int getAtencion();
         string getName();
         int getEdad();
-        string departamento();
+        string getDepartamento();
 
 };
