@@ -22,7 +22,7 @@ class Nodo{
     void setValor(T val){
         this -> value = val;
     }
-    void setSiguiente(T sig){
+    void setSiguiente(Nodo<T> sig){
         this -> siguiente = sig;
     }
     //Destructor

@@ -2,22 +2,23 @@
 #include "Nodo.hpp"
 #include <string>
 
-template< typename T>
+template<typename T>
 
-class Stack{
+class Queue{
     private:
-        Nodo<T>* ultimo:
-        int altura:
+        Nodo<T>* primero;
+        int tamaño;
     public:
-        Stack();
+        Queue();
         bool empty();
         void push(T valor);
         void pop();
-        Nodo<T>* top();
+        Nodo<T>* front();
         void clear();
         int size();
-        ~Stack<T>(); 
+        ~Queue(); 
         string mostrarInfo();
         
   
 };
+#include "Queue.cpp"
