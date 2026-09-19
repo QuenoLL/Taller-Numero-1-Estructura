@@ -6,8 +6,8 @@ template< typename T>
 
 class Stack{
     private:
-        Nodo<T>* ultimo:
-        int altura:
+        Nodo<T>* ultimo;
+        int altura;
     public:
         Stack();
         bool empty();
@@ -16,8 +16,9 @@ class Stack{
         Nodo<T>* top();
         void clear();
         int size();
-        ~Stack<T>(); 
+        ~Stack(); 
         string mostrarInfo();
         
   
 };
+#include "Stack.cpp"
