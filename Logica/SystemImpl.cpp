@@ -5,7 +5,7 @@
 #include "../Dominio/Persona.hpp"
 
 static void mostrarPersona(Persona& p){
-    cout << " [" << p.getAtencion() << "]" <<p.getName() << " | Edad: " << p.getEdad() 
+    cout << " [" << p.getAtencion() << "] " <<p.getName() << " | Edad: " << p.getEdad() 
     << " | Departamento: " <<p.getDepartamento() << "\n";
 }
 
@@ -19,7 +19,7 @@ void SystemImpl::crearPersonas(vector<string> partes){
         return;
     }
     if(partes.size() < 4){
-        cout << "Linea invalida, se omite." << "\n";
+        cout << "Linea invalida, se omite. " << "\n";
         return;
     }
     string departamento = partes[3];
