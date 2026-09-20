@@ -5,7 +5,6 @@
 class Lista{
 
     private:
-        Nodo* start;
         
 
 };

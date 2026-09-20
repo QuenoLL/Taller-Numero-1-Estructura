@@ -5,5 +5,8 @@
 
 SystemImpl::SystemImpl(){}
 void SystemImpl::crearPersonas(vector<string> partes){
+}
+
+void SystemImpl::crearDepartamentos(vector<string> partes){
     
 }

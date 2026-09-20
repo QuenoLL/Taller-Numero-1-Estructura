@@ -1,6 +1,8 @@
 #include<iostream>
 #include <fstream>
 #include <string>
+#include <sstream>
+#include <vector>
 
 using namespace std;
 
@@ -27,5 +29,4 @@ void lecturaArch(){
     while(getline(arch, linea)){//Leo el archivo a travez de un lector linea por linea, que es "linea";
 
     }
-
 };
