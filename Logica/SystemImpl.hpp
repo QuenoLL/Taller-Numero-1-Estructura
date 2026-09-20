@@ -12,6 +12,9 @@ class SystemImpl: public Interface{
         Queue<Persona> colaPacientes; 
         Stack<Persona> historial;
 
+        Departamento* buscarDepartamento(string nombre);
+        bool estaDuplicada(Persona& nueva);
+
     public:
         SystemImpl();
         
