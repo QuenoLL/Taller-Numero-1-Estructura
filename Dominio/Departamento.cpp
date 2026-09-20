@@ -1,8 +1,16 @@
 #include <iostream>
 #include "Departamento.hpp"
 
-template <typename T>
-Stack<Persona> Departamento<T>::getFilaPacientes() {
-    return this->filaPacientes;
+Lista<Persona>* Departamento::getListaPacientes() {
+    return this->listaPacientes;
+}
+
+Departamento::Departamento(string name){
+    this->name = name;
+    this->listaPacientes = new Lista<Persona>();
+}
+
+Departamento::~Departamento(){
+    delete this->listaPacientes;
 }
 

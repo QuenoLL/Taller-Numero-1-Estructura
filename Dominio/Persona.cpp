@@ -29,3 +29,6 @@ string Persona::getDepartamento(){
     return this->departamento;
 }
 
+Persona::~Persona(){
+}
+

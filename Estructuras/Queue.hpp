@@ -2,6 +2,7 @@
 #include "Nodo.hpp"
 #include <string>
 
+using namespace std;
 template<typename T>
 
 class Queue{
@@ -21,4 +22,5 @@ class Queue{
         
   
 };
+
 #include "Queue.cpp"

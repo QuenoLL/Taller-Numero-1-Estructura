@@ -20,9 +20,9 @@ class Nodo{
     }
     //Sets
     void setValor(T val){
-        this -> value = val;
+        this -> valor = val;
     }
-    void setSiguiente(Nodo<T> sig){
+    void setSiguiente(Nodo<T>*  sig){
         this -> siguiente = sig;
     }
     //Destructor

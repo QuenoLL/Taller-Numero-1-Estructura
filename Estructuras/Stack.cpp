@@ -80,3 +80,8 @@ int Stack<T>:: size(){
     return this -> altura;
 }
 
+
+template <typename T>
+Stack<T>::~Stack(){
+    delete this;
+}
