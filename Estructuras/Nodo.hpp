@@ -6,10 +6,9 @@ class Nodo{
     T valor;
     Nodo<T>* siguiente;
 
+    
     public:
-    Nodo(T val){
-        this -> valor = val;
-        this -> siguiente = nullptr;
+    Nodo(T val) : valor(val), siguiente(nullptr){
     }
     //Gets
     T getValor(){

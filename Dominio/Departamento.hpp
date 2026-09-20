@@ -13,9 +13,8 @@ class Departamento{
 
     public:
         Departamento(string name);
+        string getName();
         Lista<Persona>* getListaPacientes();
 
         ~Departamento();
-
-
 };
